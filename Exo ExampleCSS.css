@@ -1,0 +1,129 @@
+
+html, body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+
+header {
+    background-color: #f1f5f9;
+    background-image: url("LongLogo_Blk.png");  
+    background-size: 50% 75%;  
+    background-repeat: no-repeat;
+    background-position: center top;  
+    text-align: left;
+    height: 20%;
+    position: relative;
+}
+
+.profile-container {
+    color: black;
+    background-color: #f1f5f9;
+    position: absolute;
+    top: 20px; 
+    right: 10px;
+    height: 100px;
+    width: 100px;
+}
+
+.user-container {
+    color: black;
+    background-color: transparent;
+    position: absolute;
+    text-align: center;
+    bottom: 8px; 
+    left: 50%; 
+    transform: translateX(-50%); 
+    width: 40%; 
+    height: 43px; 
+    padding: 10px;
+    box-sizing: border-box; 
+    overflow: hidden; 
+}
+
+.nav-buttons {
+    background-color: transparent;
+    border: 2px solid #1A1A1A;
+    border-radius: 15px;
+    color: #3B3B3B;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Lucida Console", "Lucida", monospace;
+    font-size: 14px; 
+    font-weight: 600;
+    line-height: normal;
+    padding: 10px 20px; 
+    text-align: center;
+    transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+    margin: 0 10px; 
+}
+
+
+.nav-buttons:hover {
+    color: #fff;
+    background-color: #BCDBDC;
+    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+}
+
+.nav-buttons:active {
+    box-shadow: none;
+}
+
+nav {
+    background-color: darkcyan;
+    text-align: center;
+    height: 5%;
+    display: flex;
+    justify-content: flex-start; 
+    align-items: center; 
+}
+
+.main-container {
+    display: flex;
+    flex-direction: row;
+    height: 75%;  
+    width: 100%;
+}
+
+.alerts-container {
+    background-color: white;
+}
+
+.map-container {
+    color: black;
+    background-color: white;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    width: 25%;  
+    height: 25%;  
+}
+
+aside {
+    background-color: darkgreen;
+    text-align: center;
+    width: 20%;
+    height: 100%;
+}
+
+main {
+    background-color: olive;
+    text-align: center;
+    width: 60%;
+    height: 100%;
+}
+
+footer {
+    background-color: darkgray;
+    text-align: center;
+    height: 15%;
+    margin-top: auto; 
+}
